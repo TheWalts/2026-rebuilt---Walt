@@ -7,20 +7,31 @@
 package frc.team3602.robot;
 
 public final class Constants {
-    // Hardware Constants
+    public final class ShooterConstants {
+        //Motor ID
+        public final static int kShooterMotor1ID = 5;
+        public final static int kShooterMotor2ID = 6;
+        public final static int kFeederMotorID = 7;
 
-    public final static int SHOOTER_MOTER_1_ID = 1;
-    public final static int SHOOTER_MOTER_2_ID = 2;
+        //Motor Speeds
+        public final static double kShooterSpeed = .5;
+        public final static double kFeederMotorSpeed = .5;
+    }
 
-    public final static int FEEDER_MOTER_ID = 3;
-    // Shooter Constants
-    public final static double SHOOTER_MOTOR_1_SPEED = 1;
-    public final static double SHOOTER_MOTOR_2_SPEED = 1;
+    public final class IntakeConstants {
+        //Motor ID
+        public final static int kIntakeMotorID = 8;
+        
+        //Motor Speeds
+        public final static double kIntakeMotorSpeed = .5;
 
-    public final static double FEEDER_MOTOR_SPEED = 1;
-    // Intake Constants
+    }
 
-    // Conveyer Constants
+    public final class TurretConstants {
+        //Motor ID
+        public final static int kTurretMotorID = 9;
 
-    // Climb Constants
+        //Motor Speeds
+        public final static double kTurretMotorSpeed = .5;
+    }
 }
